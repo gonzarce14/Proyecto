@@ -1,0 +1,132 @@
+header {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.logo {
+    width : 20%;
+    height: 20%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 30px;
+}
+.portadaprincipal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#imagenportada {
+    width : 100%;
+    height: 100%; 
+}
+
+.sobremi {
+    background-color: darkgray;
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    display: flex;
+    justify-content:center;
+}
+
+.perfilimg {
+    padding: 15px;
+    width : 100%;
+    height: 80%;
+}
+
+.nombregrande {
+    padding: 15px;
+}
+
+.present {
+    padding: 15px;
+}
+
+#servicios {
+    background-color: lightgray;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+  width : 25%;
+  height: 55%;
+}
+
+.claseservicios {
+display: flex;
+justify-content: space-around;
+}
+
+#experiencia {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#imagenesdemarcas {
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3  0px; 
+}
+
+.marcas {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      ". . . ."
+      ". . . .";
+  }
+  
+
+.imagenmarca {
+height: 150px;
+width: 170px;
+}
+
+#portfolio {
+    background-image: url(imagenes/backgroundporfolio-02.png);
+    background-size: cover;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#botonporfolio {
+    color: white;
+    border: 1px solid white;
+    padding: 40px;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+}
