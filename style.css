@@ -89,6 +89,14 @@ justify-content: space-around;
     padding: 3  0px; 
 }
 
+.imagenmarca:hover {
+    transform: scale(2);
+}
+
+.imagenmarca {
+    transition: all 2s;
+}
+
 .marcas {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
