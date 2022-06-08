@@ -1,0 +1,184 @@
+header {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.logo {
+    width : 20%;
+    height: 20%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 30px;
+}
+
+.sobremi {
+    background-color: darkgray;
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    display: flex;
+    justify-content:center;
+}
+
+.perfilimg {
+    padding: 15px;
+    width : 100%;
+    height: 80%;
+}
+
+.nombregrande {
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.present {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+
+#servicios {
+    background-color: lightgray;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+  width: min-content;
+  height: min-content;
+}
+
+.claseservicios {
+display: flex;
+justify-content: space-around;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.experiencia {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+#imagenesdemarcas {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3  0px; 
+}
+
+.imagenmarca:hover {
+    transform: scale(1.2);
+}
+
+.imagenmarca {
+    transition: all 2s;
+}
+
+.marcas {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      ". . . ."
+      ". . . .";
+  }
+  
+
+.imagenmarca {
+height: 150px;
+width: 170px;
+}
+
+#portfolio {
+    background-image: url(imagenes/backgroundporfolio-02.png);
+    background-size: cover;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#botonporfolio {
+    color: white;
+    border: 1px solid white;
+    padding: 40px;
+}
+
+#ponete {
+    font-style: oblique;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+#back {
+    align-items: center;
+    background-image: url(imagenes/abstracto.jpg);
+    background-size: cover;
+
+}
+
+#formulario {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#enviar {
+    display: flex;
+    color: black;
+    padding: 20px;
+    justify-content: center;
+}
+
+.textofooter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagenredes:hover {
+    transform: scale(1.1);
+}
+
+.imagenredes {
+    width: 40px;
+    height: 40px;
+    transition: all 2s;
+
+}
+
+footer {
+    background-color: gainsboro;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
